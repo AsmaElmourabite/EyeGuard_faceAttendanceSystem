@@ -1,5 +1,5 @@
 Face Recognition Attendance System
-
+dqw
 
 This project implements a face recognition-based attendance system using Python, OpenCV, and MySQL. The system captures images using a webcam, identifies faces, and stores attendance records in a database. Additionally, the system can send email alerts for recognized and unrecognized faces.
 
