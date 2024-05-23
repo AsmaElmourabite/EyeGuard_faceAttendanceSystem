@@ -50,8 +50,8 @@ class SimpleFacerec:
     def send_email(subject, message, student_info, student_image):
         try:
             msg = MIMEMultipart()
-            msg['From'] = '23abderrahmane23@gmail.com'
-            msg['To'] = '23abderrahmane@gmail.com'
+            msg['From'] = 'your-email@gmail.com'
+            msg['To'] = 'your-email@gmail.com'
             msg['Subject'] = subject
             msg.attach(MIMEText(message, 'plain'))
             
@@ -74,7 +74,7 @@ class SimpleFacerec:
             # Send the email
             server = smtplib.SMTP('smtp.gmail.com', 587)
             server.starttls()
-            server.login(msg['From'], 'equg vnex zpkl wzap')
+            server.login(msg['From'], 'your-password')
             server.sendmail(msg['From'], msg['To'], msg.as_string())
             server.quit()
             print("Email sent successfully.")
