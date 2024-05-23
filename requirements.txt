@@ -1,0 +1,7 @@
+face-recognition
+mysql-connector-python
+numpy
+opencv-python-headless
+Pillow
+PyQt5
+PyQt5-sip
