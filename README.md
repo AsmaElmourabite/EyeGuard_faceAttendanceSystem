@@ -26,6 +26,15 @@ Ce projet est une solution complète de gestion de la présence basée sur la re
    ```bash
    git clone https://github.com/AsmaElmourabite/EyeGuard_faceAttendanceSystem.git
    cd EyeGuard_faceAttendanceSystem
+---
+
+## 👥 Membres du Groupe
+
+- **El Badouri Abderrahmane** 
+- **Elmourabite Asma** 
+- **Ouquelli Yassmine** 
+- **Ait Abderrahmane Hind** 
+
 
 
 
